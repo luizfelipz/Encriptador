@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Encriptador</title>
+</head>
+<body>
+  <main>
+    <label for="Digite seu texto"></label>
+    <input id="input" class="digite" type="text" placeholder="Digite seu texto para começar">
+    <div class="divdotopo"><img class="logo" src="assets/logo.svg" alt="logo">
+    </div>
+    <div class="btns">
+      <button onclick="criptografar()" class="criptografar">Criptografar</button>
+      <button onclick="descriptografar()" class="Descriptografar">Descriptografar</button>
+      <p>! Aviso apenas letras minúsculas e sem acento.</p>
+    </div>
+    <div class="retangulo">
+      <img class="desenho" src="assets/desenho.svg" alt="">
+      <label class="seucodigo" for="codigo"></label>
+      <textarea class="saidacodigo" name="saidatexto" id="output" cols="32" rows="8" placeholder="Digite um texto que você deseja criptografar ou descriptografar"></textarea>
+      <button onclick="copiartexto()" id="copiar" class="btn-copiar"=>Copiar</button>
+    </div>
+  </main>
+  <footer>
+    <div class="rodape">
+      <p>Alura Challenge - Oracle Next Education
+        Desenvolvido por Luiz Felipe</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
