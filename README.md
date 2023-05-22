@@ -1,3 +1,3 @@
 Challenge ONE - Lógica de Programação - Decodificador de Texto. Tecnologias Projeto desenvolvido com as seguintes tecnologias:
 
-HTML CSS JavaScript Git Github Projeto Desenvolvi um site Challenge ONE - Lógica de Programação - Decodificador de Texto para você descobrir a palavra secreta.
+Projeto Challenge ONE! Neste desafio, criamos um site interativo utilizando as tecnologias HTML, CSS, JavaScript, Git e GitHub para desenvolver um decodificador de texto que permite aos usuários descobrirem uma palavra secreta.
